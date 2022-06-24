@@ -6,6 +6,7 @@ complete the exercise by writing code to implement the following:
     1) Multi-Level Inheritance using Interfaces
     2) Method Overriding with Abstract classes
     3) Method Overloading
-    4) Polymorphism
+    4) Encapsulation
+    5) Polymorphism
 
 

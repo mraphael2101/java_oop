@@ -13,6 +13,9 @@ public class Main {
         // Overridden
         new Bird().calculateRandomAge();
 
+        // Accessing the internal structure of an object (Encapsulation)
+        new Bird().getAge();
+        new Bird().setAge(3);
 
         // Polymorphism ******************************************************************
 
