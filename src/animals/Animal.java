@@ -1,8 +1,8 @@
-package animals_and_behaviours;
+package animals;
 
 public abstract class Animal {
-    private int age;
-    private String name;
+    public int age;
+    public String name;
 
     public Animal() {
         System.out.println("A Animal now exists without a name");
@@ -12,15 +12,6 @@ public abstract class Animal {
         System.out.println("A Animal now exists and was given the name " + name);
         this.name = name;
     }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     protected abstract int calculateRandomAge();
 
     protected Integer generateSecurityCode() {

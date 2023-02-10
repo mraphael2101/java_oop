@@ -1,7 +1,7 @@
 The purpose of this exercise is to demonstrate a few of the key concepts
 of Object-Oriented Programming in Java.
 
-Using the sample classes provided in the animals_and_behaviours package,
+Using the sample classes provided in the animals package,
 complete the exercise by writing code to implement the following:
     1) Multi-Level Inheritance using Interfaces
     2) Method Overriding with Abstract classes

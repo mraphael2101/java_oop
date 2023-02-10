@@ -1,4 +1,4 @@
-package animals_and_behaviours;
+package animals.behaviours;
 
 public interface Hop {
 
