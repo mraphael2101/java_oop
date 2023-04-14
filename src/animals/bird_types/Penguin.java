@@ -1,6 +1,13 @@
 package animals.bird_types;
 
 import animals.Bird;
+import animals.behaviours.Swim;
 
-public class Penguin extends Bird {
+import java.time.LocalDateTime;
+
+public class Penguin extends Bird implements Swim {
+    @Override
+    public LocalDateTime getDurationOfSwim(LocalDateTime start, LocalDateTime end) {
+        return null;
+    }
 }

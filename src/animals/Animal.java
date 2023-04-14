@@ -1,8 +1,8 @@
 package animals;
 
 public abstract class Animal {
-    public int age;
-    public String name;
+    private int age;
+    private String name;
 
     public Animal() {
         System.out.println("A Animal now exists without a name");
@@ -16,5 +16,13 @@ public abstract class Animal {
 
     protected Integer generateSecurityCode() {
         return 0;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }

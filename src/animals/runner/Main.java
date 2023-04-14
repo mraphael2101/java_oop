@@ -19,13 +19,14 @@ public class Main {
     public static void main(String[] args) {
 
         //TODO Question 2: Insert the code below to demo calling an Overridden method here
-
+        new Bird().calculateRandomAge();
 
         //TODO Question 3: Insert the code below to demo calling an Overloaded method here
-
+        new Bird().calculateRandomAge(5);
 
         //TODO Question 4: Insert the code below to demo Encapsulation here
-
+        new Bird().getAge();
+        new Bird().setAge(3);
 
         //TODO Question 5: Polymorphism ************************************************
 
@@ -33,15 +34,16 @@ public class Main {
         Penguin penguin1 = new Penguin();
         Bird bird1 = (Bird) penguin1;
         // Insert code here
-
+        Object bird1Obj = bird1;
 
         // B) Demonstrate upcasting:
         // Insert code here
-
+        Bird penguinBird = new Penguin();
 
         // C) Demonstrate downcasting:
         Bird bird = new Penguin();
         // Insert code here
+        Penguin penguin = (Penguin) bird;
 
         //TODO Question 5: End ***********************************************************
 
